@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e9eee5">
+    <meta name="description" content="Undangan Pernikahan Alya dan Raka">
+
+    <title>Undangan Pernikahan | Alya & Raka</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIK -->
+    <audio
+        id="weddingMusic"
+        src="assets/Musik.mp3"
+        loop
+        preload="auto">
+    </audio>
+
+    <!-- COVER -->
+    <section class="cover" id="cover">
+        <div class="cover-border"></div>
+
+        <div class="cover-content">
+            <p class="eyebrow">THE WEDDING OF</p>
+
+            <h1>
+                Alya
+                <span>&amp;</span>
+                Raka
+            </h1>
+
+            <p class="cover-date">Minggu, 20 Desember 2026</p>
+
+            <div class="ornament-line">
+                <span></span> ✦ <span></span>
+            </div>
+
+            <p class="guest-label">Kepada Yth.</p>
+
+            <h3 class="guest-name" id="guestName">
+                Bapak/Ibu/Saudara/i
+            </h3>
+
+            <p class="guest-note">
+                Dengan hormat, kami mengundang Anda
+                untuk hadir di hari bahagia kami.
+            </p>
+
+            <button class="button button-light" id="openInvitation">
+                Buka Undangan ↓
+            </button>
+        </div>
+
+        <div class="leaf leaf-left">❧</div>
+        <div class="leaf leaf-right">❧</div>
+    </section>
+
+    <!-- PEMBUKA -->
+    <section class="intro section" id="intro">
+        <p class="eyebrow">
+            ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATUH
+        </p>
+
+        <div class="ornament">❧</div>
+
+        <h2>
+            Dengan memohon rahmat dan ridha Allah SWT
+        </h2>
+
+        <p class="body-copy">
+            Dengan penuh rasa syukur, kami bermaksud
+            menyelenggarakan pernikahan putra-putri kami.
+
+            Merupakan suatu kehormatan dan kebahagiaan
+            bagi kami apabila Bapak/Ibu/Saudara/i berkenan
+            hadir untuk memberikan doa restu.
+        </p>
+
+        <p class="closing">
+            Wassalamualaikum Warahmatullahi Wabarakatuh
+        </p>
+    </section>
+
+    <!-- MEMPELAI -->
+    <section class="couple section section-tint">
+        <p class="eyebrow">TWO SOULS, ONE HEART</p>
+        <h2>Pasangan Mempelai</h2>
+
+        <div class="couple-grid">
+
+            <article class="person">
+                <div class="portrait portrait-bride">
+                    <img src="assets/Foto%20Alya.png" alt="Foto Alya">
+                </div>
+
+                <h3>Alya Putri</h3>
+
+                <p>
+                    Putri dari Bapak Nama Ayah
+                    &amp; Ibu Nama Ibu
+                </p>
+
+                <a class="social-link" href="#">
+                    @instagram
+                </a>
+            </article>
+
+            <div class="ampersand">&amp;</div>
+
+            <article class="person">
+                <div class="portrait portrait-groom">
+                    <img src="assets/Foto%20Raka.jpg" alt="Foto Raka">
+                </div>
+
+                <h3>Raka Pratama</h3>
+
+                <p>
+                    Putra dari Bapak Nama Ayah
+                    &amp; Ibu Nama Ibu
+                </p>
+
+                <a class="social-link" href="#">
+                    @instagram
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- COUNTDOWN DAN ACARA -->
+    <section class="event section">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>Rangkaian Acara</h2>
+
+        <p class="body-copy">
+            Dengan segala kerendahan hati, kami mengundang
+            Anda untuk hadir dan memberikan doa restu.
+        </p>
+
+        <div class="countdown">
+            <div>
+                <strong id="days">00</strong>
+                <span>Hari</span>
+            </div>
+
+            <div>
+                <strong id="hours">00</strong>
+                <span>Jam</span>
+            </div>
+
+            <div>
+                <strong id="minutes">00</strong>
+                <span>Menit</span>
+            </div>
+
+            <div>
+                <strong id="seconds">00</strong>
+                <span>Detik</span>
+            </div>
+        </div>
+
+        <div class="event-grid">
+
+            <article class="event-card">
+                <span class="event-icon">✧</span>
+                <h3>Akad Nikah</h3>
+
+                <p class="event-date">
+                    Minggu, 20 Desember 2026
+                </p>
+
+                <p>08.00 – 10.00 WIB</p>
+
+                <p class="event-place">
+                    Kediaman Mempelai Wanita<br>
+                    Jl. Contoh No. 123, Karawang
+                </p>
+
+                <a
+                    class="text-link"
+                    href="https://maps.google.com/?q=Karawang"
+                    target="_blank"
+                    rel="noopener">
+                    Lihat Lokasi ↗
+                </a>
+            </article>
+
+            <article class="event-card">
+                <span class="event-icon">✧</span>
+                <h3>Resepsi</h3>
+
+                <p class="event-date">
+                    Minggu, 20 Desember 2026
+                </p>
+
+                <p>11.00 – 14.00 WIB</p>
+
+                <p class="event-place">
+                    Kediaman Mempelai Wanita<br>
+                    Jl. Contoh No. 123, Karawang
+                </p>
+
+                <a
+                    class="text-link"
+                    href="https://maps.google.com/?q=Karawang"
+                    target="_blank"
+                    rel="noopener">
+                    Lihat Lokasi ↗
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section class="gallery section section-tint">
+        <p class="eyebrow">OUR MOMENTS</p>
+        <h2>Galeri Bahagia</h2>
+
+        <p class="body-copy">
+            Setiap cerita memiliki awal yang indah.
+            Inilah beberapa momen perjalanan kami.
+        </p>
+
+        <div class="gallery-grid">
+            <div class="gallery-photo">
+                <img src="assets/Foto%201.jpg" alt="Galeri foto 1">
+            </div>
+
+            <div class="gallery-photo">
+                <img src="assets/Foto%202.jpg" alt="Galeri foto 2">
+            </div>
+
+            <div class="gallery-photo">
+                <img src="assets/Foto%203.jpg" alt="Galeri foto 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp section">
+        <p class="eyebrow">KONFIRMASI KEHADIRAN</p>
+        <h2>RSVP</h2>
+
+        <p class="body-copy">
+            Mohon konfirmasi kehadiran Anda
+            melalui WhatsApp.
+        </p>
+
+        <form id="rsvpForm" class="rsvp-form">
+
+            <label for="name">Nama</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Masukkan nama Anda"
+                required>
+
+            <label for="attendance">
+                Konfirmasi Kehadiran
+            </label>
+
+            <select id="attendance" required>
+                <option value="">Pilih konfirmasi</option>
+                <option value="Insyaallah hadir">
+                    Insyaallah hadir
+                </option>
+                <option value="Maaf, belum bisa hadir">
+                    Maaf, belum bisa hadir
+                </option>
+            </select>
+
+            <label for="guests">Jumlah Tamu</label>
+
+            <select id="guests">
+                <option value="1 orang">1 orang</option>
+                <option value="2 orang">2 orang</option>
+                <option value="3 orang">3 orang</option>
+                <option value="4 orang">4 orang</option>
+            </select>
+
+            <button type="submit" class="button">
+                Kirim via WhatsApp ↗
+            </button>
+        </form>
+    </section>
+
+    <!-- PENUTUP -->
+    <section class="closing-section section section-tint">
+        <div class="ornament">❧</div>
+
+        <h2>
+            Merupakan suatu kebahagiaan bagi kami
+            apabila Anda berkenan hadir dan memberikan
+            doa restu.
+        </h2>
+
+        <p>
+            Terima kasih atas segala doa dan perhatian.
+        </p>
+
+        <p class="closing-names">
+            Alya &amp; Raka
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Made with love · Alya &amp; Raka</p>
+    </footer>
+
+    <!-- TOMBOL MUSIK -->
+    <button
+        class="music-toggle"
+        id="musicToggle"
+        aria-label="Putar musik"
+        title="Musik">
+        ♫
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
